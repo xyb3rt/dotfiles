@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=XyTerm
+Exec=xyterm
+Icon=xyb3rt.xyterm
+Type=Application
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=xyterm
