@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Acme
+Exec=acme
+Icon=xyb3rt.acme.png
+Type=Application
+Actions=new-window;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=acme

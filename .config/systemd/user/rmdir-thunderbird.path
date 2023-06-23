@@ -1,0 +1,5 @@
+[Path]
+PathExists=%h/thunderbird
+
+[Install]
+WantedBy=default.target
