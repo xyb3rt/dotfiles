@@ -1,0 +1,12 @@
+.tabbrowser-tab[selected] {
+	margin-top: -3px !important;
+}   
+
+tab:not([selected="true"]) {
+	margin-top: -3px !important;
+}
+
+#tabbrowser-tabs {
+	max-height: 31px !important;
+	min-height: 31px !important;
+}
