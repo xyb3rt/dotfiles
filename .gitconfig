@@ -1,0 +1,18 @@
+[advice]
+	statusHints = false
+[checkout]
+	defaultRemote = origin
+[color]
+	ui = false
+[core]
+	pager = less -F
+[diff]
+	algorithm = histogram
+	dstPrefix = ./
+	srcPrefix = ./
+[merge]
+	conflictStyle = diff3
+[tag]
+	sort = -committerdate
+[include]
+	path = .gitconfig.local
