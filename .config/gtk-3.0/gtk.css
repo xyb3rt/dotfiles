@@ -1,0 +1,24 @@
+headerbar {
+	min-height: 0px;
+}
+
+headerbar entry,
+headerbar spinbutton,
+headerbar button,
+headerbar separator {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* shrink ssd titlebars */
+.default-decoration {
+	min-height: 0px; /* let the entry and button drive the titlebar size */
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+window.ssd headerbar.titlebar {
+	min-height: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}

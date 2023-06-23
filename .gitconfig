@@ -1,0 +1,25 @@
+[advice]
+	statusHints = false
+[checkout]
+	defaultRemote = origin
+[color]
+	ui = false
+[commit]
+	verbose = true
+[core]
+	pager = less -F
+[diff]
+	algorithm = histogram
+	dstPrefix = ./
+	srcPrefix = ./
+[merge]
+	conflictStyle = zdiff3
+	tool = diff-merge-tool
+[mergetool]
+	keepBackup = false
+[mergetool.diff-merge-tool]
+	cmd = git-diff-merge-tool "$MERGED" "$LOCAL" "$REMOTE" "$BASE"
+[tag]
+	sort = -committerdate
+[include]
+	path = .gitconfig.local

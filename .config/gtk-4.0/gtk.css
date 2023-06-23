@@ -1,0 +1,14 @@
+headerbar {
+	min-height: 0px;
+}
+
+.titlebar {
+	min-height: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+windowhandle box {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
