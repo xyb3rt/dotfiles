@@ -1,0 +1,12 @@
+[advice]
+	statusHints = false
+[checkout]
+	defaultRemote = origin
+[color]
+	ui = false
+[diff]
+	algorithm = histogram
+[merge]
+	conflictstyle = diff3
+[include]
+	path = .gitconfig.local
